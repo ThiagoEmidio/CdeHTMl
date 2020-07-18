@@ -1,0 +1,12 @@
+Estruturas de um website
+
+Para que websites sejam bem desenvolvidos, existe um conjunto de tags que indicam onde cada conteúdo deve ser inserido. Em geral, essas tags são apenas estruturais, ou seja, ao serem inseridas, não trazem modificações a estrutura da página. 
+
+Observe a seguir algumas tags estruturais:
+
+Destaco a tag <div>. Essa tag permite a inserção de divisórias nas páginas, ou seja, são tags estruturais que permitirão que você organize seu código.
+https://udemy-images.s3.amazonaws.com/redactor/raw/2018-03-17_14-04-44-4622827886bf69cce0fd0ca735eb1c5c.png
+
+    <div>
+        <p>Conteúdo de uma div</p>
+    </div>

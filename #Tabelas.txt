@@ -1,0 +1,13 @@
+Tabelas
+
+Podemos criar tabelas usando a tag <table>. 
+
+Cada linha deve ser declarada com a tag <tr> 
+e cada célula com a tag <td>. 
+
+Opcionalmente podemos usar a tag 
+
+<th> para declarar células que representem 
+a linha de cabeçalho.
+
+https://udemy-images.s3.amazonaws.com/redactor/raw/2018-04-03_13-32-10-36b8389078e5ece1ff797ca7e15d38d1.jpg

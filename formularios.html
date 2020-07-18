@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+    <head>
+        <meta charset="utf-8">
+        <title>Formulários</title>
+    </head>
+
+    <body>
+        <!-- Form requere action e method-->
+        <form action="processa.php" method="post"> <!-- método post é encriptada, metodo get é pela URL-->
+            <label>nome</label>
+            <input type="text" name=testo"  placeholder="eusouumplaceholderde imput tipo">
+            <br>
+            <label>senha</label>
+            <input type="password" placeholder=senha>
+            <br>
+            <label>Oculto</label>
+            <input type="hidden" value="mensagem oculta">
+            <br>
+            <label>seleção</label>
+            <select name="selecao">
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+            </select>
+            <br>
+            <label>Radio</label>
+            <input type="radio" name="radio" value="1">valor 1
+            <input type="radio" name="radio" value="2">valor 2<!-- ele sabe que é o mesmo radio pelo nome da variável-->
+            <br>
+            <label>Checkbox</label>
+            <input type="checkbox" name="checkbox" value="1">valor 1
+            <input type="checkbox" name="checkbox" value="2" checked >valor 2
+            <input type="checkbox" name="checkbox" value="3">valor 3
+            <br>
+            <label>buttoes</label>
+            <input type="submit" value="enviar" name="submit"
+
+    </body>
+
+</html>
